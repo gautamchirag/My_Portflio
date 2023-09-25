@@ -1,0 +1,58 @@
+.Header {
+  width: 100vw;
+  position: fixed;
+  /* top: 0px; */
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  z-index: 100;
+  background-color: #bbf7d0;
+}
+.Headerfixed {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #fff;
+  border-bottom: 1px solid #f2eeee;
+}
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+nav {
+  width: 1496px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 1.5rem;
+  /* position: sticky; */
+  /* border: 1px solid green; */
+}
+.navdiv2 ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 3rem;
+  text-transform: uppercase;
+}
+.navdiv2 ul li {
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.hire {
+  height: 1rem;
+  width: 4rem;
+  border-radius: 8px;
+  background-color: black;
+  color: #fff;
+  padding: 0.6rem;
+}
+ul li a {
+  font-weight: bolder;
+  color: black;
+}

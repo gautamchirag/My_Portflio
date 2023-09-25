@@ -1,0 +1,314 @@
+.work-container {
+  width: 93.5rem;
+  /* height: 33.125rem; */
+  margin: 0 auto;
+  padding: 1.5rem 1.5rem;
+  /* border: 0.0625rem solid saddlebrown; */
+  margin-top: 3rem;
+}
+
+.work-heading {
+  position: relative;
+  margin-bottom: 1.8rem;
+}
+
+.work-heading h3 {
+  font-size: 1.9rem;
+  color: rgba(156, 163, 175);
+}
+
+.work-heading span {
+  position: absolute;
+  left: 10%;
+  width: 81.125rem;
+  height: 0.25rem;
+  border-bottom: 0.125rem solid rgba(156, 163, 175);
+}
+
+.para {
+  color: #374151;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* section container start here-----------------------> */
+
+.project-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-img-div {
+  position: relative;
+}
+
+.project-img-div2 {
+  position: relative;
+  transition: all 1.375rem ease-out;
+}
+
+.project-img-div3 {
+  position: relative;
+  transition: all 1.375rem ease-out;
+}
+
+.project-img-div4 {
+  position: relative;
+  transition: all 1.375rem ease-out;
+}
+
+.detail {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: flex;
+  opacity: 0;
+  padding: 1rem;
+  height: 17.5rem;
+  width: 23.75rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: #1f2937;
+  transition: opacity 3s ease;
+}
+
+.detail3 {
+  position: absolute;
+  top: 0;
+  /* border: 0.0625rem solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: none;
+  padding: 1rem;
+  height: 17.5rem;
+  width: 23.75rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  /* background-color: #fff; */
+  color: #1f2937;
+}
+
+.detail4 {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: none;
+  padding: 1rem;
+  height: 17.5rem;
+  width: 23.75rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  color: #1f2937;
+}
+
+.youtube-detail {
+  position: absolute;
+  top: 0;
+  /* border: 0.0625rem solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  display: none;
+  padding: 1rem;
+  height: 17.5rem;
+  width: 23.75rem;
+  justify-content: center;
+  border-radius: 0.5rem;
+  /* background-color: #fff; */
+  color: white;
+}
+
+.project-img-div:hover .hotel-img {
+  opacity: 0.3;
+}
+
+.project-img-div:hover .detail {
+  /* display: flex; */
+  z-index: 2;
+  opacity: 1;
+  box-shadow: inset 0.625rem 0.625rem 1.25rem 1.25rem #f0e4e4;
+}
+
+.project-img-div2:hover .youtube-img {
+  opacity: 0.3;
+}
+
+.project-img-div2:hover .youtube-detail {
+  display: flex;
+  z-index: 2;
+  box-shadow: inset 0.625rem 0.625rem 1.25rem 1.25rem #f0e4e4;
+}
+
+.project-img-div3:hover .chat-img {
+  opacity: 0.3;
+}
+
+.project-img-div3:hover .detail3 {
+  display: flex;
+  z-index: 2;
+  box-shadow: inset 0.625rem 0.625rem 1.25rem 1.25rem #f0e4e4;
+}
+
+.project-img-div4:hover .wea-img {
+  opacity: 0.3;
+}
+
+.project-img-div4:hover .detail4 {
+  display: flex;
+  z-index: 2;
+  box-shadow: inset 0.625rem 0.625rem 1.25rem 1.25rem #f0e4e4;
+}
+
+.detail ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.detail button {
+  height: 2.5rem;
+  width: 6.25rem;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail3 ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.detail3 button {
+  height: 2.5rem;
+  width: 6.25rem;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail4 ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.detail4 button {
+  height: 2.5rem;
+  width: 6.25rem;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.youtube-detail ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  justify-content: center;
+}
+
+.youtube-detail button {
+  height: 2.5rem;
+  width: 6.25rem;
+  border-radius: 0.3125rem;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon {
+  font-size: 1.25rem;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-4 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1rem;
+}
+
+.project-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 1rem;
+}
+
+.work-section p {
+  font-size: 1.25rem;
+  color: #1f2937;
+}
+
+.hotel-img {
+  height: 17.5rem;
+  width: 23.75rem;
+  border-radius: 0.5rem;
+}
+
+.chat-img {
+  height: 17.5rem;
+  width: 23.75rem;
+  border-radius: 0.5rem;
+}
+
+.youtube-img {
+  height: 17.5rem;
+  width: 23.75rem;
+  border-radius: 0.5rem;
+}
+
+.wea-img {
+  height: 17.5rem;
+  width: 23.75rem;
+  border-radius: 0.5rem;
+}
+
+.work-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
